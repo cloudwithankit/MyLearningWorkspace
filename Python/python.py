@@ -164,48 +164,86 @@
 # print(var)
 
 
-# while True:
-#     num = input("you loose as soon as you enter alphabet")
-#     if not num:
-#         break
+# # while True:
+# #     num = input("you loose as soon as you enter alphabet")
+# #     if not num:
+# #         break
 
-# # print("5".isdigit())
-# try:
-#     int("555 gg")
-# except NameError:
-#     print(" some thing wrong in code ")
-# except ValueError:
-#     print("Some wrong in value ")
-#     raise
-# finally:
-#     print(" my no is", "555")
+# # # print("5".isdigit())
+# # try:
+# #     int("555 gg")
+# # except NameError:
+# #     print(" some thing wrong in code ")
+# # except ValueError:
+# #     print("Some wrong in value ")
+# #     raise
+# # finally:
+# #     print(" my no is", "555")
 
-# # file handling
-# words = ['abc', 'def', 'ghi']
+# # # file handling
+# # words = ['abc', 'def', 'ghi']
 
-# with open("C:\\Users\\a.a.agrawal\\Desktop\\MyLearningWorkspace\\MyLearningWorkspace\\Python\\test.txt", 'a') as output_file:
-#     for word in words:
-#         print(word)
-#         output_file.write(word+'\n')
+# # with open("C:\\Users\\a.a.agrawal\\Desktop\\MyLearningWorkspace\\MyLearningWorkspace\\Python\\test.txt", 'a') as output_file:
+# #     for word in words:
+# #         print(word)
+# #         output_file.write(word+'\n')
 
 
-import math
-from random import shuffle
-import time as tm
-import itertools as iter
-import datetime
-import zipfile
+# import math
 # from random import shuffle
-print(math.pi, math.e, math.floor(-15.6))
-cards = [1, 2, 4, 5, 6, 6, 6, 6, 6]
-print(shuffle(cards))
-print(cards)
+# import time as tm
+# import itertools as iter
+# import datetime
+# import zipfile
+# # from random import shuffle
+# print(math.pi, math.e, math.floor(-15.6))
+# cards = [1, 2, 4, 5, 6, 6, 6, 6, 6]
+# print(shuffle(cards))
+# print(cards)
 
 
-# usage of iter library
+# # usage of iter library
 
-for (a, b, c) in iter.combinations(("Jelly", "Butter", "Pasta", "pizza", "seaseme"), 3):
-    print(("How about {} and {} and {} today").format(a, b, c))
+# for (a, b, c) in iter.combinations(("Jelly", "Butter", "Pasta", "pizza", "seaseme"), 3):
+#     print(("How about {} and {} and {} today").format(a, b, c))
 
 
-print(tm.localtime(), tm.gmtime())
+# print(tm.localtime(), tm.gmtime())
+
+
+import csv
+
+# with open('C:\\Users\\a.a.agrawal\\Desktop\\MyLearningWorkspace\\MyLearningWorkspace\\TestUser.csv', "w") as csvfilename:
+#     writer = csv.writer(csvfilename)
+#     writer.writerow(["id,", "rollno", "Name"])
+#     writer.writerow(["2,", "rollno", "Name"])
+#     writer.writerow(["3,", "test", "test name 1 "])
+#     writer.writerow(["3,", "rollno", "Name@123"])
+#     writer.writerow(["5,", "Anit", "Name"])
+# import os
+# import sys
+# sysvalue = str(sys.platform)
+# print(sysvalue)
+
+
+import turtle as td
+
+# print(turtle.left(100))
+# print(turtle.right(100))
+# print(turtle.fd(60))
+
+# turtle.mainloop()
+
+
+# def polyg(sd, sz):
+#     i = 1
+#     angle = (360/sd)
+#     while (i <= sd):
+
+#         print(td.left(100))
+#         print(td.fd(angle))
+#         i -= 1
+#     td.mainloop()
+
+
+# polyg(6, 100)
