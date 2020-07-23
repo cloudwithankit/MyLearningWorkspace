@@ -18,7 +18,7 @@
 # Configure the AWS Provider
 provider "aws" {
   version    = "~> 2.0"
-  secret_key = ""
+  secret_key = ""  /gsg
   access_key = ""
 
   region = "us-east-1"

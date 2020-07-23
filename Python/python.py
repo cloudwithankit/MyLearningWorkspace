@@ -180,14 +180,32 @@
 # finally:
 #     print(" my no is", "555")
 
-# file handling
-words = ['abc', 'def', 'ghi']
+# # file handling
+# words = ['abc', 'def', 'ghi']
 
-with open("directorylist.txt", 'a') as output_file:
-    for word in words:
-        output_file.write(word+'\n')
+# with open("C:\\Users\\a.a.agrawal\\Desktop\\MyLearningWorkspace\\MyLearningWorkspace\\Python\\test.txt", 'a') as output_file:
+#     for word in words:
+#         print(word)
+#         output_file.write(word+'\n')
 
 
-with open("directorylist.txt") as input_file:
-    for line in input_file:
-        print(line.strip())
+import math
+from random import shuffle
+import time as tm
+import itertools as iter
+import datetime
+import zipfile
+# from random import shuffle
+print(math.pi, math.e, math.floor(-15.6))
+cards = [1, 2, 4, 5, 6, 6, 6, 6, 6]
+print(shuffle(cards))
+print(cards)
+
+
+# usage of iter library
+
+for (a, b, c) in iter.combinations(("Jelly", "Butter", "Pasta", "pizza", "seaseme"), 3):
+    print(("How about {} and {} and {} today").format(a, b, c))
+
+
+print(tm.localtime(), tm.gmtime())
