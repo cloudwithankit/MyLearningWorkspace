@@ -1,0 +1,20 @@
+/* Tin Can configuration */
+
+//
+// ActivityID that is sent for the statement's object
+//
+TC_COURSE_ID = "http://j_bvR-AyYKi4T-Ah6n8otLWVG_tcsFET_rise"
+
+//
+// CourseName for the activity
+//
+TC_COURSE_NAME = {
+  "en-US": "Data Analytics Fundamentals"
+};
+
+//
+// CourseDesc for the activity
+//
+TC_COURSE_DESC = {
+  "en-US": "&lt;p&gt;&lt;span style=&#34;color: rgb(0, 0, 0);&#34;&gt;In this self-paced course, you will learn about:&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&#34;color: rgb(0, 0, 0);&#34;&gt;Identifying data analytics challenges&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&#34;color: rgb(0, 0, 0);&#34;&gt;Data storage and the challenges of volume&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&#34;color: rgb(0, 0, 0);&#34;&gt;Data processing and the challenges of velocity&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&#34;color: rgb(0, 0, 0);&#34;&gt;Data structure and types, and the challenges of variety&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&#34;color: rgb(0, 0, 0);&#34;&gt;Data cleansing and transformation, and the challenges of veracity&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&#34;color: rgb(0, 0, 0);&#34;&gt;Reporting and business intelligence, and the challenges of value&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span style=&#34;color: rgb(0, 0, 0);&#34;&gt;The Amazon Web Services (AWS) services covered in this course include Amazon Simple Storage Service (Amazon S3), AWS Lake Formation (in preview), Amazon Redshift, AWS Glue, Amazon EMR, Amazon Kinesis, and many more.&lt;/span&gt;&lt;/p&gt;"
+};
